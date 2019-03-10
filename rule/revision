@@ -1,0 +1,12 @@
+rule,version
+knight,1
+knightlv,1
+material,1
+item,1
+itemlv,1
+setitem,1
+pet,1
+petexp,1
+petlv,1
+stage,1
+variable,1
