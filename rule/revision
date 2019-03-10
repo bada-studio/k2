@@ -20,7 +20,7 @@
     "version": 1
   },
   {
-    "rule": "setitem",
+    "rule": "itemset",
     "version": 1
   },
   {
