@@ -1,7 +1,112 @@
-level,count,bonus,powder1,powder2,powder3,powder4,powder5,powder6,rate,v1
-1,0,0,0,0,0,0,0,0,10000,0
-2,1,20,20,40,200,2000,4000,8000,10000,0
-3,3,40,40,80,400,4000,8000,20000,10000,0
-4,7,80,80,200,800,8000,20000,40000,10000,0
-5,15,160,200,400,2000,20000,40000,80000,10000,0
-6,31,240,400,800,4000,40000,80000,160000,3000,0
+[
+  {
+    "id": 1,
+    "levelFrom": 1,
+    "dropRate": 22,
+    "natureDropRate": 30,
+    "steelDropRate": 30,
+    "boneDropRate": 10,
+    "skinDropRate": 20,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 2,
+    "levelFrom": 2,
+    "dropRate": 23,
+    "natureDropRate": 20,
+    "steelDropRate": 20,
+    "boneDropRate": 10,
+    "skinDropRate": 40,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 3,
+    "levelFrom": 3,
+    "dropRate": 24,
+    "natureDropRate": 20,
+    "steelDropRate": 40,
+    "boneDropRate": 10,
+    "skinDropRate": 20,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 4,
+    "levelFrom": 6,
+    "dropRate": 28,
+    "natureDropRate": 20,
+    "steelDropRate": 10,
+    "boneDropRate": 40,
+    "skinDropRate": 20,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 5,
+    "levelFrom": 7,
+    "dropRate": 29,
+    "natureDropRate": 10,
+    "steelDropRate": 20,
+    "boneDropRate": 20,
+    "skinDropRate": 10,
+    "mineralDropRate": 40
+  },
+  {
+    "id": 6,
+    "levelFrom": 8,
+    "dropRate": 30,
+    "natureDropRate": 20,
+    "steelDropRate": 40,
+    "boneDropRate": 10,
+    "skinDropRate": 20,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 7,
+    "levelFrom": 11,
+    "dropRate": 33,
+    "natureDropRate": 40,
+    "steelDropRate": 20,
+    "boneDropRate": 20,
+    "skinDropRate": 10,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 8,
+    "levelFrom": 12,
+    "dropRate": 34,
+    "natureDropRate": 10,
+    "steelDropRate": 20,
+    "boneDropRate": 20,
+    "skinDropRate": 40,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 9,
+    "levelFrom": 13,
+    "dropRate": 35,
+    "natureDropRate": 20,
+    "steelDropRate": 40,
+    "boneDropRate": 10,
+    "skinDropRate": 20,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 10,
+    "levelFrom": 15,
+    "dropRate": 35,
+    "natureDropRate": 40,
+    "steelDropRate": 10,
+    "boneDropRate": 20,
+    "skinDropRate": 20,
+    "mineralDropRate": 10
+  },
+  {
+    "id": 11,
+    "levelFrom": 16,
+    "dropRate": 35,
+    "natureDropRate": 20,
+    "steelDropRate": 20,
+    "boneDropRate": 20,
+    "skinDropRate": 20,
+    "mineralDropRate": 20
+  }
+]

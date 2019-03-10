@@ -1,92 +1,92 @@
 [
   {
     "level": 1,
-    "killCountSum": 0,
-    "price": 0
+    "exp": 0,
+    "powder": 0
   },
   {
     "level": 2,
-    "killCountSum": 40,
-    "price": 8
+    "exp": 40,
+    "powder": 8
   },
   {
     "level": 3,
-    "killCountSum": 120,
-    "price": 16
+    "exp": 120,
+    "powder": 16
   },
   {
     "level": 4,
-    "killCountSum": 280,
-    "price": 32
+    "exp": 280,
+    "powder": 32
   },
   {
     "level": 5,
-    "killCountSum": 600,
-    "price": 64
+    "exp": 600,
+    "powder": 64
   },
   {
     "level": 6,
-    "killCountSum": 1240,
-    "price": 128
+    "exp": 1240,
+    "powder": 128
   },
   {
     "level": 7,
-    "killCountSum": 2520,
-    "price": 256
+    "exp": 2520,
+    "powder": 256
   },
   {
     "level": 8,
-    "killCountSum": 5080,
-    "price": 512
+    "exp": 5080,
+    "powder": 512
   },
   {
     "level": 9,
-    "killCountSum": 10200,
-    "price": 1024
+    "exp": 10200,
+    "powder": 1024
   },
   {
     "level": 10,
-    "killCountSum": 20440,
-    "price": 2048
+    "exp": 20440,
+    "powder": 2048
   },
   {
     "level": 11,
-    "killCountSum": 40920,
-    "price": 4096
+    "exp": 40920,
+    "powder": 4096
   },
   {
     "level": 12,
-    "killCountSum": 81880,
-    "price": 8192
+    "exp": 81880,
+    "powder": 8192
   },
   {
     "level": 13,
-    "killCountSum": 163800,
-    "price": 16384
+    "exp": 163800,
+    "powder": 16384
   },
   {
     "level": 14,
-    "killCountSum": 327640,
-    "price": 32768
+    "exp": 327640,
+    "powder": 32768
   },
   {
     "level": 15,
-    "killCountSum": 655320,
-    "price": 65536
+    "exp": 655320,
+    "powder": 65536
   },
   {
     "level": 16,
-    "killCountSum": 1310680,
-    "price": 131072
+    "exp": 1310680,
+    "powder": 131072
   },
   {
     "level": 17,
-    "killCountSum": 2621400,
-    "price": 262144
+    "exp": 2621400,
+    "powder": 262144
   },
   {
     "level": 18,
-    "killCountSum": 5242840,
-    "price": 524288
+    "exp": 5242840,
+    "powder": 524288
   }
 ]

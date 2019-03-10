@@ -1,27 +1,366 @@
-code,grade,stat1_type,stat2_type,stat3_type,stat1,stat2,stat3,stat1_up_per_level,stat2_up_per_level,stat3_up_per_level,relative_drop_rate
-1,1,1,0,0,55,0,0,37,0,0,25600
-2,1,2,0,0,55,0,0,37,0,0,25600
-3,1,3,0,0,55,0,0,37,0,0,25600
-4,1,4,0,0,39,0,0,25,0,0,25600
-5,1,1,0,0,55,0,0,37,0,0,25600
-6,1,2,0,0,55,0,0,37,0,0,25600
-7,1,3,0,0,55,0,0,37,0,0,25600
-8,1,4,0,0,39,0,0,25,0,0,25600
-9,2,1,3,0,123,55,0,77,37,0,3200
-10,2,2,4,0,123,39,0,77,25,0,3200
-11,2,3,1,0,123,55,0,77,37,0,3200
-12,2,4,2,0,87,55,0,55,37,0,3200
-13,2,1,2,0,123,55,0,77,37,0,3200
-14,2,2,1,0,123,55,0,77,37,0,3200
-15,2,3,4,0,123,39,0,77,25,0,3200
-16,2,4,3,0,87,55,0,55,37,0,3200
-17,3,4,1,0,191,123,0,101,93,0,800
-18,3,1,3,0,272,123,0,147,93,0,800
-19,3,3,1,0,272,123,0,147,93,0,800
-20,3,2,4,0,272,87,0,147,67,0,800
-21,4,3,1,4,481,227,87,287,193,87,40
-22,4,4,2,1,337,227,123,201,193,121,40
-23,4,2,4,3,481,159,123,287,133,121,40
-24,4,1,3,2,481,227,123,287,193,121,40
-25,5,1,2,3,817,386,209,487,328,205,4
-26,5,2,1,3,817,386,209,487,328,205,4
+[
+  {
+    "code": 1,
+    "grade": 1,
+    "stat1Type": 1,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 55,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 37,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 2,
+    "grade": 1,
+    "stat1Type": 2,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 55,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 37,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 3,
+    "grade": 1,
+    "stat1Type": 3,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 55,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 37,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 4,
+    "grade": 1,
+    "stat1Type": 4,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 39,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 25,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 5,
+    "grade": 1,
+    "stat1Type": 1,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 55,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 37,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 6,
+    "grade": 1,
+    "stat1Type": 2,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 55,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 37,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 7,
+    "grade": 1,
+    "stat1Type": 3,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 55,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 37,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 8,
+    "grade": 1,
+    "stat1Type": 4,
+    "stat2Type": 0,
+    "stat3Type": 0,
+    "stat1": 39,
+    "stat2": 0,
+    "stat3": 0,
+    "stat1UpPerLevel": 25,
+    "stat2UpPerLevel": 0,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 25600
+  },
+  {
+    "code": 9,
+    "grade": 2,
+    "stat1Type": 1,
+    "stat2Type": 3,
+    "stat3Type": 0,
+    "stat1": 123,
+    "stat2": 55,
+    "stat3": 0,
+    "stat1UpPerLevel": 77,
+    "stat2UpPerLevel": 37,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 10,
+    "grade": 2,
+    "stat1Type": 2,
+    "stat2Type": 4,
+    "stat3Type": 0,
+    "stat1": 123,
+    "stat2": 39,
+    "stat3": 0,
+    "stat1UpPerLevel": 77,
+    "stat2UpPerLevel": 25,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 11,
+    "grade": 2,
+    "stat1Type": 3,
+    "stat2Type": 1,
+    "stat3Type": 0,
+    "stat1": 123,
+    "stat2": 55,
+    "stat3": 0,
+    "stat1UpPerLevel": 77,
+    "stat2UpPerLevel": 37,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 12,
+    "grade": 2,
+    "stat1Type": 4,
+    "stat2Type": 2,
+    "stat3Type": 0,
+    "stat1": 87,
+    "stat2": 55,
+    "stat3": 0,
+    "stat1UpPerLevel": 55,
+    "stat2UpPerLevel": 37,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 13,
+    "grade": 2,
+    "stat1Type": 1,
+    "stat2Type": 2,
+    "stat3Type": 0,
+    "stat1": 123,
+    "stat2": 55,
+    "stat3": 0,
+    "stat1UpPerLevel": 77,
+    "stat2UpPerLevel": 37,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 14,
+    "grade": 2,
+    "stat1Type": 2,
+    "stat2Type": 1,
+    "stat3Type": 0,
+    "stat1": 123,
+    "stat2": 55,
+    "stat3": 0,
+    "stat1UpPerLevel": 77,
+    "stat2UpPerLevel": 37,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 15,
+    "grade": 2,
+    "stat1Type": 3,
+    "stat2Type": 4,
+    "stat3Type": 0,
+    "stat1": 123,
+    "stat2": 39,
+    "stat3": 0,
+    "stat1UpPerLevel": 77,
+    "stat2UpPerLevel": 25,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 16,
+    "grade": 2,
+    "stat1Type": 4,
+    "stat2Type": 3,
+    "stat3Type": 0,
+    "stat1": 87,
+    "stat2": 55,
+    "stat3": 0,
+    "stat1UpPerLevel": 55,
+    "stat2UpPerLevel": 37,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 3200
+  },
+  {
+    "code": 17,
+    "grade": 3,
+    "stat1Type": 4,
+    "stat2Type": 1,
+    "stat3Type": 0,
+    "stat1": 191,
+    "stat2": 123,
+    "stat3": 0,
+    "stat1UpPerLevel": 101,
+    "stat2UpPerLevel": 93,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 800
+  },
+  {
+    "code": 18,
+    "grade": 3,
+    "stat1Type": 1,
+    "stat2Type": 3,
+    "stat3Type": 0,
+    "stat1": 272,
+    "stat2": 123,
+    "stat3": 0,
+    "stat1UpPerLevel": 147,
+    "stat2UpPerLevel": 93,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 800
+  },
+  {
+    "code": 19,
+    "grade": 3,
+    "stat1Type": 3,
+    "stat2Type": 1,
+    "stat3Type": 0,
+    "stat1": 272,
+    "stat2": 123,
+    "stat3": 0,
+    "stat1UpPerLevel": 147,
+    "stat2UpPerLevel": 93,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 800
+  },
+  {
+    "code": 20,
+    "grade": 3,
+    "stat1Type": 2,
+    "stat2Type": 4,
+    "stat3Type": 0,
+    "stat1": 272,
+    "stat2": 87,
+    "stat3": 0,
+    "stat1UpPerLevel": 147,
+    "stat2UpPerLevel": 67,
+    "stat3UpPerLevel": 0,
+    "relativeDropRate": 800
+  },
+  {
+    "code": 21,
+    "grade": 4,
+    "stat1Type": 3,
+    "stat2Type": 1,
+    "stat3Type": 4,
+    "stat1": 481,
+    "stat2": 227,
+    "stat3": 87,
+    "stat1UpPerLevel": 287,
+    "stat2UpPerLevel": 193,
+    "stat3UpPerLevel": 87,
+    "relativeDropRate": 40
+  },
+  {
+    "code": 22,
+    "grade": 4,
+    "stat1Type": 4,
+    "stat2Type": 2,
+    "stat3Type": 1,
+    "stat1": 337,
+    "stat2": 227,
+    "stat3": 123,
+    "stat1UpPerLevel": 201,
+    "stat2UpPerLevel": 193,
+    "stat3UpPerLevel": 121,
+    "relativeDropRate": 40
+  },
+  {
+    "code": 23,
+    "grade": 4,
+    "stat1Type": 2,
+    "stat2Type": 4,
+    "stat3Type": 3,
+    "stat1": 481,
+    "stat2": 159,
+    "stat3": 123,
+    "stat1UpPerLevel": 287,
+    "stat2UpPerLevel": 133,
+    "stat3UpPerLevel": 121,
+    "relativeDropRate": 40
+  },
+  {
+    "code": 24,
+    "grade": 4,
+    "stat1Type": 1,
+    "stat2Type": 3,
+    "stat3Type": 2,
+    "stat1": 481,
+    "stat2": 227,
+    "stat3": 123,
+    "stat1UpPerLevel": 287,
+    "stat2UpPerLevel": 193,
+    "stat3UpPerLevel": 121,
+    "relativeDropRate": 40
+  },
+  {
+    "code": 25,
+    "grade": 5,
+    "stat1Type": 1,
+    "stat2Type": 2,
+    "stat3Type": 3,
+    "stat1": 817,
+    "stat2": 386,
+    "stat3": 209,
+    "stat1UpPerLevel": 487,
+    "stat2UpPerLevel": 328,
+    "stat3UpPerLevel": 205,
+    "relativeDropRate": 4
+  },
+  {
+    "code": 26,
+    "grade": 5,
+    "stat1Type": 2,
+    "stat2Type": 1,
+    "stat3Type": 3,
+    "stat1": 817,
+    "stat2": 386,
+    "stat3": 209,
+    "stat1UpPerLevel": 487,
+    "stat2UpPerLevel": 328,
+    "stat3UpPerLevel": 205,
+    "relativeDropRate": 4
+  }
+]
