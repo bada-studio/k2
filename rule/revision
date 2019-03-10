@@ -1,12 +1,46 @@
-rule,version
-knight,1
-knightlv,1
-material,1
-item,1
-itemlv,1
-setitem,1
-pet,1
-petexp,1
-petlv,1
-stage,1
-variable,1
+[
+  {
+    "rule": "knight",
+    "version": 1
+  },
+  {
+    "rule": "knightlv",
+    "version": 1
+  },
+  {
+    "rule": "material",
+    "version": 1
+  },
+  {
+    "rule": "item",
+    "version": 1
+  },
+  {
+    "rule": "itemlv",
+    "version": 1
+  },
+  {
+    "rule": "setitem",
+    "version": 1
+  },
+  {
+    "rule": "pet",
+    "version": 1
+  },
+  {
+    "rule": "petexp",
+    "version": 1
+  },
+  {
+    "rule": "petlv",
+    "version": 1
+  },
+  {
+    "rule": "stage",
+    "version": 1
+  },
+  {
+    "rule": "variable",
+    "version": 1
+  }
+]

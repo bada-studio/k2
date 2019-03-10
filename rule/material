@@ -1,71 +1,492 @@
-code,type,grade,relativeDropRate,powder
-1,1,1,67108864,1
-2,1,1,33554432,1
-3,1,1,16777216,2
-4,1,1,8388608,4
-5,1,2,1048576,8
-6,1,2,524288,16
-7,1,2,262144,32
-8,1,3,16384,64
-9,1,3,8192,128
-10,1,4,1024,256
-11,1,5,64,512
-21,2,1,67108864,1
-22,2,1,33554432,1
-23,2,1,16777216,2
-24,2,1,8388608,4
-25,2,2,1048576,8
-26,2,2,524288,16
-27,2,2,262144,32
-28,2,3,16384,64
-29,2,3,8192,128
-30,2,4,1024,256
-31,2,5,64,512
-41,3,1,67108864,1
-42,3,1,33554432,1
-43,3,1,16777216,2
-44,3,1,8388608,4
-45,3,2,1048576,8
-46,3,2,524288,16
-47,3,2,262144,32
-48,3,3,16384,64
-49,3,3,8192,128
-50,3,4,1024,256
-51,3,5,64,512
-61,4,1,67108864,1
-62,4,1,33554432,1
-63,4,1,16777216,2
-64,4,1,8388608,4
-65,4,2,1048576,8
-66,4,2,524288,16
-67,4,2,262144,32
-68,4,3,16384,64
-69,4,3,8192,128
-70,4,4,1024,256
-71,4,5,64,512
-81,5,1,67108864,1
-82,5,1,33554432,1
-83,5,1,16777216,2
-84,5,1,8388608,4
-85,5,2,1048576,8
-86,5,2,524288,16
-87,5,2,262144,32
-88,5,3,16384,64
-89,5,3,8192,128
-90,5,4,1024,256
-91,5,5,64,512
-201,2,3,8192,128
-202,1,4,1024,256
-203,3,5,64,512
-204,3,3,8192,128
-205,1,4,1024,256
-206,4,5,64,512
-207,1,3,8192,128
-208,1,4,1024,256
-209,1,5,64,512
-210,3,3,8192,128
-211,1,4,1024,256
-212,2,5,64,512
-213,1,3,8192,128
-214,5,4,1024,256
-215,5,5,64,512
+[
+  {
+    "code": 1,
+    "type": 1,
+    "grade": 1,
+    "relativeDropRate": 67108864,
+    "powder": 1
+  },
+  {
+    "code": 2,
+    "type": 1,
+    "grade": 1,
+    "relativeDropRate": 33554432,
+    "powder": 1
+  },
+  {
+    "code": 3,
+    "type": 1,
+    "grade": 1,
+    "relativeDropRate": 16777216,
+    "powder": 2
+  },
+  {
+    "code": 4,
+    "type": 1,
+    "grade": 1,
+    "relativeDropRate": 8388608,
+    "powder": 4
+  },
+  {
+    "code": 5,
+    "type": 1,
+    "grade": 2,
+    "relativeDropRate": 1048576,
+    "powder": 8
+  },
+  {
+    "code": 6,
+    "type": 1,
+    "grade": 2,
+    "relativeDropRate": 524288,
+    "powder": 16
+  },
+  {
+    "code": 7,
+    "type": 1,
+    "grade": 2,
+    "relativeDropRate": 262144,
+    "powder": 32
+  },
+  {
+    "code": 8,
+    "type": 1,
+    "grade": 3,
+    "relativeDropRate": 16384,
+    "powder": 64
+  },
+  {
+    "code": 9,
+    "type": 1,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 10,
+    "type": 1,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 11,
+    "type": 1,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 21,
+    "type": 2,
+    "grade": 1,
+    "relativeDropRate": 67108864,
+    "powder": 1
+  },
+  {
+    "code": 22,
+    "type": 2,
+    "grade": 1,
+    "relativeDropRate": 33554432,
+    "powder": 1
+  },
+  {
+    "code": 23,
+    "type": 2,
+    "grade": 1,
+    "relativeDropRate": 16777216,
+    "powder": 2
+  },
+  {
+    "code": 24,
+    "type": 2,
+    "grade": 1,
+    "relativeDropRate": 8388608,
+    "powder": 4
+  },
+  {
+    "code": 25,
+    "type": 2,
+    "grade": 2,
+    "relativeDropRate": 1048576,
+    "powder": 8
+  },
+  {
+    "code": 26,
+    "type": 2,
+    "grade": 2,
+    "relativeDropRate": 524288,
+    "powder": 16
+  },
+  {
+    "code": 27,
+    "type": 2,
+    "grade": 2,
+    "relativeDropRate": 262144,
+    "powder": 32
+  },
+  {
+    "code": 28,
+    "type": 2,
+    "grade": 3,
+    "relativeDropRate": 16384,
+    "powder": 64
+  },
+  {
+    "code": 29,
+    "type": 2,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 30,
+    "type": 2,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 31,
+    "type": 2,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 41,
+    "type": 3,
+    "grade": 1,
+    "relativeDropRate": 67108864,
+    "powder": 1
+  },
+  {
+    "code": 42,
+    "type": 3,
+    "grade": 1,
+    "relativeDropRate": 33554432,
+    "powder": 1
+  },
+  {
+    "code": 43,
+    "type": 3,
+    "grade": 1,
+    "relativeDropRate": 16777216,
+    "powder": 2
+  },
+  {
+    "code": 44,
+    "type": 3,
+    "grade": 1,
+    "relativeDropRate": 8388608,
+    "powder": 4
+  },
+  {
+    "code": 45,
+    "type": 3,
+    "grade": 2,
+    "relativeDropRate": 1048576,
+    "powder": 8
+  },
+  {
+    "code": 46,
+    "type": 3,
+    "grade": 2,
+    "relativeDropRate": 524288,
+    "powder": 16
+  },
+  {
+    "code": 47,
+    "type": 3,
+    "grade": 2,
+    "relativeDropRate": 262144,
+    "powder": 32
+  },
+  {
+    "code": 48,
+    "type": 3,
+    "grade": 3,
+    "relativeDropRate": 16384,
+    "powder": 64
+  },
+  {
+    "code": 49,
+    "type": 3,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 50,
+    "type": 3,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 51,
+    "type": 3,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 61,
+    "type": 4,
+    "grade": 1,
+    "relativeDropRate": 67108864,
+    "powder": 1
+  },
+  {
+    "code": 62,
+    "type": 4,
+    "grade": 1,
+    "relativeDropRate": 33554432,
+    "powder": 1
+  },
+  {
+    "code": 63,
+    "type": 4,
+    "grade": 1,
+    "relativeDropRate": 16777216,
+    "powder": 2
+  },
+  {
+    "code": 64,
+    "type": 4,
+    "grade": 1,
+    "relativeDropRate": 8388608,
+    "powder": 4
+  },
+  {
+    "code": 65,
+    "type": 4,
+    "grade": 2,
+    "relativeDropRate": 1048576,
+    "powder": 8
+  },
+  {
+    "code": 66,
+    "type": 4,
+    "grade": 2,
+    "relativeDropRate": 524288,
+    "powder": 16
+  },
+  {
+    "code": 67,
+    "type": 4,
+    "grade": 2,
+    "relativeDropRate": 262144,
+    "powder": 32
+  },
+  {
+    "code": 68,
+    "type": 4,
+    "grade": 3,
+    "relativeDropRate": 16384,
+    "powder": 64
+  },
+  {
+    "code": 69,
+    "type": 4,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 70,
+    "type": 4,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 71,
+    "type": 4,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 81,
+    "type": 5,
+    "grade": 1,
+    "relativeDropRate": 67108864,
+    "powder": 1
+  },
+  {
+    "code": 82,
+    "type": 5,
+    "grade": 1,
+    "relativeDropRate": 33554432,
+    "powder": 1
+  },
+  {
+    "code": 83,
+    "type": 5,
+    "grade": 1,
+    "relativeDropRate": 16777216,
+    "powder": 2
+  },
+  {
+    "code": 84,
+    "type": 5,
+    "grade": 1,
+    "relativeDropRate": 8388608,
+    "powder": 4
+  },
+  {
+    "code": 85,
+    "type": 5,
+    "grade": 2,
+    "relativeDropRate": 1048576,
+    "powder": 8
+  },
+  {
+    "code": 86,
+    "type": 5,
+    "grade": 2,
+    "relativeDropRate": 524288,
+    "powder": 16
+  },
+  {
+    "code": 87,
+    "type": 5,
+    "grade": 2,
+    "relativeDropRate": 262144,
+    "powder": 32
+  },
+  {
+    "code": 88,
+    "type": 5,
+    "grade": 3,
+    "relativeDropRate": 16384,
+    "powder": 64
+  },
+  {
+    "code": 89,
+    "type": 5,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 90,
+    "type": 5,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 91,
+    "type": 5,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 201,
+    "type": 2,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 202,
+    "type": 1,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 203,
+    "type": 3,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 204,
+    "type": 3,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 205,
+    "type": 1,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 206,
+    "type": 4,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 207,
+    "type": 1,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 208,
+    "type": 1,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 209,
+    "type": 1,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 210,
+    "type": 3,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 211,
+    "type": 1,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 212,
+    "type": 2,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  },
+  {
+    "code": 213,
+    "type": 1,
+    "grade": 3,
+    "relativeDropRate": 8192,
+    "powder": 128
+  },
+  {
+    "code": 214,
+    "type": 5,
+    "grade": 4,
+    "relativeDropRate": 1024,
+    "powder": 256
+  },
+  {
+    "code": 215,
+    "type": 5,
+    "grade": 5,
+    "relativeDropRate": 64,
+    "powder": 512
+  }
+]

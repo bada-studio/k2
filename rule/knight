@@ -1,4 +1,32 @@
-type,attack,hp,defense,luck,gattack,ghp,gdefense
-1,100,250,100,0,7,9,9
-2,120,220,100,0,11,7,7
-3,130,210,100,0,10,8,7
+[
+  {
+    "type": 1,
+    "attack": 100,
+    "hp": 250,
+    "defense": 100,
+    "luck": 0,
+    "gattack": 7,
+    "ghp": 9,
+    "gdefense": 9
+  },
+  {
+    "type": 2,
+    "attack": 120,
+    "hp": 220,
+    "defense": 100,
+    "luck": 0,
+    "gattack": 11,
+    "ghp": 7,
+    "gdefense": 7
+  },
+  {
+    "type": 3,
+    "attack": 130,
+    "hp": 210,
+    "defense": 100,
+    "luck": 0,
+    "gattack": 10,
+    "ghp": 8,
+    "gdefense": 7
+  }
+]
