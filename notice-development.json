@@ -4,7 +4,7 @@
       "datetime":"2019-04-22T00:00:00.000",
       "expiration":"2019-06-26T00:00:00.000",
       "icon":"https://eosknights.io/img/notice/notice1.png",
-      [{
+      "contents": [{
          "lang":"en",
          "title":"Update News",
          "body":"![](https://eosknights.io/img/notice/ekcup3.jpg =500x454)\n\n### Update notice\nUpdate for 1st EK. CUP have done.\n1st EK. CUP will start tomorrow. Let's play together!\nDetail update features are below.\n\n* EK. CUP related update\n* Include TokenPocket iOS wallet login\n* Add alarm option \n\nThanks.\nTeam Biscuit",
