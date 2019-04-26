@@ -2,10 +2,13 @@
 minVersion:
   ios: 1.0.0
   android: 1.0.0
-maintenance: false
-maintenanceMessage:
-  bodyKo: 1.9.0 버전업을 준비중입니다.
-  bodyEn: Maintenance break for 1.9.0 Update
+maintenance:
+  on: false
+  message:
+  - lang: en
+    body: Maintenance break for 1.9.0 Update
+  - lang: ko
+    body: 1.9.0 버전업을 준비중입니다.
 downloadUrl:
   ios: ''
   android: https://play.google.com/store/apps/details?id=games.biscuit.ethk
