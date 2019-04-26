@@ -21,3 +21,4 @@ tester:
 connections:
   apiServer: https://k2-api.biscuitlabs.io/
   newsServer: https://k2-news.biscuitlabs.io/
+  newsSockServer: https://k2-news.biscuitlabs.io/
