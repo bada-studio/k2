@@ -10,14 +10,14 @@ maintenance:
   - lang: ko
     body: 1.9.0 버전업을 준비중입니다.
 downloadUrl:
-  ios: ''
-  android: https://play.google.com/store/apps/details?id=games.biscuit.ethk
+  ios: https://k2.biscuitlabs.io/ios
+  android: https://k2.biscuitlabs.io/android
 url:
-  telegram: https://t.me/joinchat/IAL3EwvtSVMml_qkYPXbrw
+  homepage: https://k2.biscuitgames.io
 experimental: []
 beta: []
 tester:
 - raindaysmain
 connections:
-  apiServer: https://ethk-api.biscuit.games/
-  lobbyServer: https://ethk-lobby.biscuit.games/
+  apiServer: https://k2-api.biscuitlabs.io/
+  newsServer: https://k2-news.biscuitlabs.io/
