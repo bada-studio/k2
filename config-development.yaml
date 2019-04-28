@@ -18,6 +18,6 @@ experimental: []
 tester:
 - raindaysmain
 connections:
-  apiServer: https://k2-api.biscuitlabs.io/
+  apiServer: http://121.168.149.101:8050
   newsServer: https://k2-news.biscuitlabs.io/
   newsSockServer: https://k2-news.biscuitlabs.io/
