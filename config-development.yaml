@@ -1,0 +1,23 @@
+---
+minVersion:
+  ios: 1.0.0
+  android: 1.0.0
+maintenance:
+  on: false
+  messages:
+  - lang: en
+    body: Maintenance break for 1.9.0 Update
+  - lang: ko
+    body: "![](http://eosknights.io/img/notice/banner.png =680x380)\n1.9.0 버전업을 준비중입니다."
+downloadUrl:
+  ios: https://k2.biscuitlabs.io/ios
+  android: https://k2.biscuitlabs.io/android
+url:
+  homepage: https://k2.biscuitgames.io
+experimental: []
+tester:
+- raindaysmain
+connections:
+  apiServer: http://121.168.149.101:8050
+  newsServer: https://k2-news.biscuitlabs.io/
+  newsSockServer: https://k2-news.biscuitlabs.io/

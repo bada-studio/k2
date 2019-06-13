@@ -1,0 +1,92 @@
+[
+  {
+    "level": 1,
+    "exp": 0,
+    "powder": 0
+  },
+  {
+    "level": 2,
+    "exp": 40,
+    "powder": 8
+  },
+  {
+    "level": 3,
+    "exp": 120,
+    "powder": 16
+  },
+  {
+    "level": 4,
+    "exp": 280,
+    "powder": 32
+  },
+  {
+    "level": 5,
+    "exp": 600,
+    "powder": 64
+  },
+  {
+    "level": 6,
+    "exp": 1240,
+    "powder": 128
+  },
+  {
+    "level": 7,
+    "exp": 2520,
+    "powder": 256
+  },
+  {
+    "level": 8,
+    "exp": 5080,
+    "powder": 512
+  },
+  {
+    "level": 9,
+    "exp": 10200,
+    "powder": 1024
+  },
+  {
+    "level": 10,
+    "exp": 20440,
+    "powder": 2048
+  },
+  {
+    "level": 11,
+    "exp": 40920,
+    "powder": 4096
+  },
+  {
+    "level": 12,
+    "exp": 81880,
+    "powder": 8192
+  },
+  {
+    "level": 13,
+    "exp": 163800,
+    "powder": 16384
+  },
+  {
+    "level": 14,
+    "exp": 327640,
+    "powder": 32768
+  },
+  {
+    "level": 15,
+    "exp": 655320,
+    "powder": 65536
+  },
+  {
+    "level": 16,
+    "exp": 1310680,
+    "powder": 131072
+  },
+  {
+    "level": 17,
+    "exp": 2621400,
+    "powder": 262144
+  },
+  {
+    "level": 18,
+    "exp": 5242840,
+    "powder": 524288
+  }
+]
