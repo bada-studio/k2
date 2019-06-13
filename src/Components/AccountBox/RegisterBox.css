@@ -1,0 +1,53 @@
+.RegisterBox {
+  padding-bottom:10px;
+  margin-bottom:1em;
+  border-radius: 0;
+}
+
+.RegisterBox .hidden {
+  display:none
+}
+
+.RegisterBox .BoxBody {
+  padding:12px;
+  text-align: center;
+}
+
+.RegisterBox .RewardBox {
+  padding:10px;
+}
+
+.RegisterBox .ButtonBox {
+  padding-top:12px;
+  border-top: 1px solid #E5E5E5;
+}
+
+.RegisterBox .Button {
+  height: 45px;
+}
+
+.RegisterBox .NoticeText {
+  color:#A1A1A1;
+  font-size: 0.82em;
+}
+
+.RegisterBox .RewardText {
+  color:#2699FB;
+  font-weight: bold;
+}
+
+.RegisterBox .RewardIcon {
+  width:98px;
+  height:98px;
+  margin-bottom: 5px;
+}
+
+.RegisterBox .MobileCheckBox {
+  text-align: left;
+  padding: 5px 0px 20px 0px;
+}
+
+.RegisterBox .DoneBox {
+  text-align: center;
+  padding: 5px 0px 20px 0px;
+}

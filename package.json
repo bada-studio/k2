@@ -1,0 +1,39 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "copy-to-clipboard": "^3.2.0",
+    "crypto-js": "^3.1.9-1",
+    "eosjs": "^16.0.9",
+    "es6-enum": "^1.1.0",
+    "events": "^3.0.0",
+    "gh-pages": "^2.0.1",
+    "moment": "^2.24.0",
+    "react": "^16.8.6",
+    "react-burger-menu": "^2.6.10",
+    "react-dom": "^16.8.6",
+    "react-s-alert": "^1.4.1",
+    "react-scripts": "^3.0.0",
+    "scatterjs-core": "^2.7.16",
+    "scatterjs-plugin-eosjs": "^1.5.1",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.86.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "https://k2.biscuitlabs.io/"
+}

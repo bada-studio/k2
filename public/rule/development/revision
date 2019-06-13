@@ -1,0 +1,46 @@
+[
+  {
+    "rule": "knight",
+    "version": 1
+  },
+  {
+    "rule": "knightlv",
+    "version": 1
+  },
+  {
+    "rule": "material",
+    "version": 1
+  },
+  {
+    "rule": "item",
+    "version": 1
+  },
+  {
+    "rule": "itemlv",
+    "version": 1
+  },
+  {
+    "rule": "itemset",
+    "version": 1
+  },
+  {
+    "rule": "pet",
+    "version": 1
+  },
+  {
+    "rule": "petexp",
+    "version": 1
+  },
+  {
+    "rule": "petlv",
+    "version": 1
+  },
+  {
+    "rule": "stage",
+    "version": 1
+  },
+  {
+    "rule": "variable",
+    "version": 1
+  }
+]
