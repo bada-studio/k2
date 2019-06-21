@@ -1,8 +1,6 @@
 .ContentBox {
-    width:95%;
-    padding:12px;
-    max-width: 600px;
+    width: 100%;
+    padding:0px;
     background-color: white;
-    margin: 0 auto;
-    text-align: left;
+    margin: 0px auto;
 }

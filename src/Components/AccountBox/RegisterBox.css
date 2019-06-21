@@ -1,6 +1,6 @@
 .RegisterBox {
-  padding-bottom:10px;
-  margin-bottom:1em;
+  padding-bottom:0px;
+  margin-bottom:5px;
   border-radius: 0;
 }
 
@@ -9,45 +9,81 @@
 }
 
 .RegisterBox .BoxBody {
-  padding:12px;
+  padding-top:100px;
+  padding-left: 20px;
+  padding-right: 20px;
   text-align: center;
 }
 
 .RegisterBox .RewardBox {
-  padding:10px;
+  padding-top:100px;
 }
 
 .RegisterBox .ButtonBox {
-  padding-top:12px;
-  border-top: 1px solid #E5E5E5;
+  margin-top:100px;
+  margin-bottom:100px;
+  padding: 0px; 
+}
+
+.RegisterBox .ButtonBox1 {
+  margin-top:50px;
+  margin-bottom:20px;
+  padding: 0px; 
 }
 
 .RegisterBox .Button {
-  height: 45px;
+  height: 70px;
+  width: 100%;
+}
+
+.RegisterBox .headline {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-top: 4px;
 }
 
 .RegisterBox .NoticeText {
-  color:#A1A1A1;
-  font-size: 0.82em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:black;
+  font-size: 10px;
 }
 
 .RegisterBox .RewardText {
-  color:#2699FB;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color:black;
+  font-size: 25px;
   font-weight: bold;
-}
+  }
 
 .RegisterBox .RewardIcon {
   width:98px;
   height:98px;
-  margin-bottom: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.RegisterBox .TitleIcon {
+  width: 250px;
 }
 
 .RegisterBox .MobileCheckBox {
   text-align: left;
-  padding: 5px 0px 20px 0px;
+  padding: 5px 0px 0px 0px;
+}
+
+.RegisterBox .MobileBox {
+  padding: 50px 0px 0px 0px;
 }
 
 .RegisterBox .DoneBox {
   text-align: center;
   padding: 5px 0px 20px 0px;
+}
+
+.ui.fluid.container {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }

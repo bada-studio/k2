@@ -1,3 +1,57 @@
 .GameInfoBox {
-  margin-top:1em;
+  padding-top:100px;
+}
+
+.GameInfoBox .longtext {
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: black;
+}
+
+.GameInfoBox .boldtext {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.GameInfoBox .Description2 {
+  padding-top: 30px;
+  padding-bottom: 50px
+}
+
+.GameInfoBox .Description1 {
+  padding-top: 50px
+}
+
+.GameInfoBox .Playimage {
+  width: 348px;
+}
+
+@media (max-width:700px) {
+  .GameInfoBox .Playimage {
+    width: 320px;
+  }
+}
+
+
+.GameInfoBox .TextBox {
+  padding-top: 70px;  
+  font-size: 16px;
+  text-align: center;
+}
+
+.GameInfoBox .headline {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-top: 4px;
+}
+
+.GameInfoBox .headlineblack {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-top: 4px;
 }

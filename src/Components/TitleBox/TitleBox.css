@@ -1,0 +1,29 @@
+.TitleBox {
+  width: 100%; /* or whatever is required */
+  height: 85vh;
+  padding: 0px;
+  text-align: center; /* ensures the image is always in the h-middle */
+  overflow: hidden; /* hide the cropped portion */
+  }
+
+.TitleBox .TitleBackground {
+  background-image: url("./../../Images/title_v0.png");
+  background-color: #cccccc;
+  height: 85vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.TitleBox .TitleIcon {
+  padding-top: 150px;
+  width: 350px;
+}
+
+.TitleBox .Button {
+  height: 15px;
+}
+
+.TitleBox .MenuBox {
+  top: 10px;
+}

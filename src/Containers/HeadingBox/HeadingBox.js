@@ -4,7 +4,6 @@ import { NoticeBox } from '../../Containers';
 import { Image } from 'semantic-ui-react';
 import Alert from 'react-s-alert';
 import accountService from '../../Services/AccountService';
-import title from './../../Images/title.png';
 import './HeadingBox.css';
 
 class HeadingBox extends Component {
@@ -103,7 +102,6 @@ class HeadingBox extends Component {
 
     return (
       <div className="HeadingBox">
-        <Image src={title} className="TitleIcon centered"/>
         <RegisterBox
           account = {account}
           oauth = {oauth}

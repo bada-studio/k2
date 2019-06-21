@@ -1,8 +1,8 @@
 .HeadingBox {
-    margin-top: 1.2em;
+    margin-top: 5px;
+    font-size: 15px;
 }
 
 .TitleIcon {
-    width: 220px;
-    height: 103px;
+    max-width: 100px;
 }

@@ -1,7 +1,10 @@
 import React, { Component } from "react";
 import { Footer, SimpleLoader } from "./Components";
 import Alert from 'react-s-alert';
-import { GameInfoBox } from './Components';
+import { 
+  TitleBox, 
+  GameInfoBox 
+} from './Components';
 import {
   HeadingBox,
   NoticeBox,
@@ -26,14 +29,35 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <HeadingBox/>
-        <GameInfoBox/>
-        <NoticeBox/>
-        <Footer/>
+        <div class="ui segment seg" id="home">
+          <div class="ui sticky">
+            <div class="ui inverted segment MenuBox fluid container">
+            <div class="ui inverted secondary pointing menu">
+              <a class="item" href="#home">
+                홈
+              </a>
+              <a class="item" href="#reg">
+                사전등록
+              </a>
+              <a class="item" href="#gameinfo">
+                게임소개
+              </a>
+            </div>
+            </div>
 
-        <AlertBox/>
-        <Alert stack={{limit: 3}} />
-        <SimpleLoader />
+            <TitleBox/>
+            <HeadingBox/>
+            <div class="ui divider"></div>
+            <GameInfoBox/>
+            
+            <NoticeBox/>
+            <Footer/>
+
+            <AlertBox/>
+            <Alert stack={{limit: 3}} />
+            <SimpleLoader />
+          </div>
+        </div>
       </div>
     );
   }
