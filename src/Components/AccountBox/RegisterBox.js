@@ -55,8 +55,8 @@ const RegisterBox = ({
               <div className="DoneBox">
                 사전등록을 완료하셨습니다.
               </div>
-              <div className="ui ButtonBox cointainer">
-                <Button className="ui Button gray fluid large" onClick={onClickLogout}>로그아웃</Button>
+              <div className="ui ButtonBox container">
+                <Button className="ui Button gray large" onClick={onClickLogout}>로그아웃</Button>
               </div>
             </div>
 
