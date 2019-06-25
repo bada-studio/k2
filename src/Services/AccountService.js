@@ -22,6 +22,12 @@ class AccountService {
   }
 
   kakaoSignup = async() => {
+    let throughTalk = true;
+    let userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      throughTalk = false;
+    }
+
     this.kakao.Auth.login({
       success: (authObj) => {
         this.oauth = authObj;
@@ -35,7 +41,8 @@ class AccountService {
           beep: false,
           timeout: 3000
         });
-      }
+      },
+      throughTalk: throughTalk
     });
   };
 
