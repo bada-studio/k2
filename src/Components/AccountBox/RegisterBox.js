@@ -41,7 +41,7 @@ const RegisterBox = ({
                 <div className="column">
                   <div className="ui">
                     <Image src={klay} className="centered RewardIcon"/>
-                    <div className="ui midium header">KLAY 500개
+                    <div className="ui midium header">KLAY 100개
                       <div className="ui sub header">대상: 1,000명 추첨</div>
                     </div>
                   </div>
