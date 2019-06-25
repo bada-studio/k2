@@ -14,12 +14,15 @@
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
+    "react-favicon": "0.0.16",
+    "react-meta-tags": "^0.7.4",
     "react-s-alert": "^1.4.1",
     "react-scripts": "^3.0.0",
     "scatterjs-core": "^2.7.16",
     "scatterjs-plugin-eosjs": "^1.5.1",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.86.0"
+    "semantic-ui-react": "^0.86.0",
+    "typescript": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
