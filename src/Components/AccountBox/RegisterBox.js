@@ -41,8 +41,8 @@ const RegisterBox = ({
                 <div className="column">
                   <div className="ui">
                     <Image src={klay} className="centered RewardIcon"/>
-                    <div className="ui midium header">KLAY 500개
-                      <div className="ui sub header">대상: 1,000명 추첨</div>
+                    <div className="ui midium header">KLAY 100개
+                      <div className="ui sub header">대상: 777명 추첨</div>
                     </div>
                   </div>
                 </div>
@@ -52,11 +52,11 @@ const RegisterBox = ({
 
           <div>
             <div className={account ? "" : "hidden"}>
-              <div className="DoneBox">
-                사전등록을 완료하셨습니다.
-              </div>
               <div className="ui ButtonBox container">
                 <Button className="ui Button gray large" onClick={onClickLogout}>로그아웃</Button>
+                <br/>
+                <br/>
+                사전등록을 완료하셨습니다.
               </div>
             </div>
 
