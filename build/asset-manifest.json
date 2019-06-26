@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.34207f3a.chunk.css",
-    "main.js": "/static/js/main.a5da66de.chunk.js",
-    "main.js.map": "/static/js/main.a5da66de.chunk.js.map",
+    "main.css": "/static/css/main.89db08e7.chunk.css",
+    "main.js": "/static/js/main.ce59c8d4.chunk.js",
+    "main.js.map": "/static/js/main.ce59c8d4.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.a7edb8c1.chunk.css": "/static/css/2.a7edb8c1.chunk.css",
-    "static/js/2.cd581229.chunk.js": "/static/js/2.cd581229.chunk.js",
-    "static/js/2.cd581229.chunk.js.map": "/static/js/2.cd581229.chunk.js.map",
+    "static/js/2.908d5ca4.chunk.js": "/static/js/2.908d5ca4.chunk.js",
+    "static/js/2.908d5ca4.chunk.js.map": "/static/js/2.908d5ca4.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8f393766c597e82de47da1608e30b7a3.js": "/precache-manifest.8f393766c597e82de47da1608e30b7a3.js",
+    "precache-manifest.51b4612412fe60eaef1ef2ac1d3de55e.js": "/precache-manifest.51b4612412fe60eaef1ef2ac1d3de55e.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.a7edb8c1.chunk.css.map": "/static/css/2.a7edb8c1.chunk.css.map",
-    "static/css/main.34207f3a.chunk.css.map": "/static/css/main.34207f3a.chunk.css.map",
+    "static/css/main.89db08e7.chunk.css.map": "/static/css/main.89db08e7.chunk.css.map",
     "static/media/bean3.png": "/static/media/bean3.1ac6e5b3.png",
     "static/media/semantic.min.css": "/static/media/outline-icons.ef60a4f6.woff",
-    "static/media/play1.jpg": "/static/media/play1.7f6189e5.jpg",
-    "static/media/play2.jpg": "/static/media/play2.258d07a8.jpg",
-    "static/media/play3.jpg": "/static/media/play3.7f6189e5.jpg",
-    "static/media/play4.jpg": "/static/media/play4.258d07a8.jpg",
+    "static/media/play1.jpg": "/static/media/play1.43b1c20b.jpg",
+    "static/media/play2.jpg": "/static/media/play2.89474527.jpg",
+    "static/media/play3.jpg": "/static/media/play3.b1083583.jpg",
+    "static/media/play4.jpg": "/static/media/play4.e71c4ab3.jpg",
     "static/media/title_text.png": "/static/media/title_text.bb55b6cc.png",
-    "static/media/title_v0.png": "/static/media/title_v0.ab6eaa2d.png"
+    "static/media/TitleBox.css": "/static/media/title_v0.ddf6bed4.jpg"
   }
 }
