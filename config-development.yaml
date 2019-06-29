@@ -20,3 +20,4 @@ tester:
 connections:
   apiServer: http://raindays.net:8050
   shopServer: http://192.168.0.3:5000
+fakeIAP: true
