@@ -19,5 +19,5 @@ tester:
 - raindaysmain
 connections:
   apiServer: http://localhost:8080
-  newsServer: https://k2-news.biscuitlabs.io/
-  newsSockServer: https://k2-news.biscuitlabs.io/
+  shopServer: http://localhost:8081
+IAP: false
