@@ -18,6 +18,6 @@ experimental: []
 tester:
 - raindaysmain
 connections:
-  apiServer: http://raindays.net:8050
-  shopServer: http://192.168.0.3:5000
+  apiServer: http://121.168.149.101:8050
+  shopServer: http://121.168.149.101:5000
 fakeIAP: true
