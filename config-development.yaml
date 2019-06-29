@@ -20,4 +20,4 @@ tester:
 connections:
   apiServer: http://121.168.149.101:8050
   shopServer: http://121.168.149.101:8081
-fakeIAP: true
+IAP: false
