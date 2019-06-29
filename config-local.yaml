@@ -20,3 +20,4 @@ tester:
 connections:
   apiServer: http://localhost:8050
   shopServer: http://localhost:8081
+fakeIAP: true
