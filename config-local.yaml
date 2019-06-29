@@ -18,6 +18,6 @@ experimental: []
 tester:
 - raindaysmain
 connections:
-  apiServer: http://localhost:8050
+  apiServer: http://localhost:8080
   shopServer: http://localhost:8081
 fakeIAP: true
