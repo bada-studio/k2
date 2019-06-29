@@ -18,5 +18,5 @@ experimental: []
 tester:
 - raindaysmain
 connections:
-  apiServer: http://121.168.149.101:8050
-  shopServer: http://121.168.149.101:8081
+  apiServer: http://localhost:8050
+  shopServer: http://localhost:8081
