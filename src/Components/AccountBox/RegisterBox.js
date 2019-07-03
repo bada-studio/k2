@@ -10,6 +10,7 @@ const RegisterBox = ({
   account,
   oauth,
   mobile,
+  webView,
   smsAgree,
   onChangeInput,
   onChangeCheckbox,
@@ -86,6 +87,12 @@ const RegisterBox = ({
 
             <div className={account == null && oauth == null ? "" : "hidden"}>
               <div className="ui ButtonBox container">
+                {webView ?
+                    <div className="ui pointing below red basic label">
+                      로그인이 안되면 브라우저에서 실행해주세요!
+                    </div>
+                    : ""
+                }
                 <Button id="kakao-login-btn" className="ui Button yellow huge" onClick={onClickLogin}>사전등록하기 - 카카오 로그인</Button>
               </div>
             </div>

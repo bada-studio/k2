@@ -21,6 +21,14 @@ class AccountService {
     this.ee.emit('updated')
   }
 
+  isWebview() {
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+    return (ua.indexOf("FBAN") > -1) ||
+           (ua.indexOf("FBAV") > -1) ||
+           (ua.indexOf("Instagram") > -1) ||
+           (ua.indexOf("Line") > -1);
+  }
+
   kakaoSignup = async() => {
     let throughTalk = true;
     let userAgent = navigator.userAgent || navigator.vendor || window.opera;

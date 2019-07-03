@@ -100,11 +100,14 @@ class HeadingBox extends Component {
       smsAgree
     } = this.state;
 
+    let webView = accountService.isWebview();
+
     return (
       <div className="HeadingBox">
         <RegisterBox
           account = {account}
           oauth = {oauth}
+          webView = {webView}
           mobile = {mobile}
           smsAgree = {smsAgree}
           onChangeInput = {this.onChangeInput}
