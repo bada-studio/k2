@@ -57,12 +57,12 @@ const GameInfoBox = ({}) => (
       <div className="column">
         <div className="ui content longtext container">
         <div className="ui huge header">ENJOY BLOCKCHAIN</div> 
-          <div className="boldtext">누구나 즐길수 있는 카카오 최초의 블록체인 게임입니다.</div>
+          <div className="boldtext">누구나 즐길수 있는 블록체인 게임입니다.</div>
           카카오로 로그인하면 누구나 블록체인 기술을 경험할 수 있어요. 복잡한 블록체인 계정만들기, 계정연동하기 필요없이 카카오로 로그인하고 바로 시작하세요.
           <br/>
           <br/>
-          <div className="boldtext">카카오의 암호화폐 클레이(Klay)를 획득해 보아요.</div>
-          게임을 즐기면서 카카오의 암호화페 클레이(Klay)를 획득할 수 있어요. 획득한 클레이(Klay)로 게임을 즐기고, 친구들과 함께 나눠 보아요.
+          <div className="boldtext">>클레이튼의 암호화폐 클레이(Klay)를 획득해 보아요.</div>
+          게임을 즐기면서 클레이(Klay)를 획득할 수 있어요. 획득한 클레이(Klay)로 게임을 즐기고, 친구들과 함께 나눠 보아요.
           <br/>
           <br/>
           <div className="boldtext">여러분이 만든 모든것은 여러분의 소유입니다.</div>
