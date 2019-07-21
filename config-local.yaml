@@ -20,4 +20,5 @@ tester:
 connections:
   apiServer: http://localhost:8080
   shopServer: http://localhost:8081
+  chatServer: ws://121.168.149.101:8765
 IAP: false
