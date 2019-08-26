@@ -21,4 +21,4 @@ connections:
   apiServer: http://121.168.149.101:8080
   shopServer: http://121.168.149.101:8787
   chatServer: ws://121.168.149.101:8765
-IAP: false
+IAP: true
