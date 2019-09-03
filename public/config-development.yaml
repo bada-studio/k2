@@ -20,6 +20,7 @@ tester:
 connections:
   apiServer: http://121.168.149.101:8080
   shopServer: http://121.168.149.101:8081
-  frontServer: http://121.168.149.101:8585
   chatServer: ws://121.168.149.101:8765
+  frontServer: http://121.168.149.101:8585
+  blockExplorer: https://rinkeby.etherscan.io
 IAP: false
