@@ -24,4 +24,5 @@ connections:
   frontServer: http://121.168.149.101:8585
   blockExplorer: https://rinkeby.etherscan.io
   contractAddress: 0xF1a82eBaDcff995C177Ef9a88A0674c4a0A9B3A8
+  marketURL: https://rinkeby.opensea.io
 IAP: false
