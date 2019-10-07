@@ -19,7 +19,8 @@ tester:
 - raindaysmain
 connections:
   apiServer: http://121.168.149.101:8080
-  shopServer: http://121.168.149.101:8788
+  shopServer: http://121.168.149.101:8787
+  chainServer: http://121.168.149.101:8788
   chatServer: ws://121.168.149.101:8765
   frontServer: http://121.168.149.101:8585
   blockExplorer: https://rinkeby.etherscan.io
