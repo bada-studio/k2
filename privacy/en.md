@@ -6,7 +6,7 @@ We value your comments, suggestions and feedback. Our Privacy Policy sets out ho
 
 You have choices about the data we collect. When you are asked to provide personal data, you may decline. But if you choose not to provide data that is necessary to enable us to make the Game available to you, you may not be able to sign up for or play the Game. The data we collect can include the following:
 
-Eos account name. We may collect your account address.
+Ethereum account address. We may collect your account address.
 
 Device and Usage information. We may collect data about your device and how you and your device interact with our Game. For example, we may collect your feature usage patterns, location data, and your interactions with us. We may also collect data about your device and the network you use to connect to our Game; this may include data such as your IP address, browser type, operating system, and referring URLs.
 
