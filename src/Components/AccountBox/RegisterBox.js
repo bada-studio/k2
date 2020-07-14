@@ -37,7 +37,7 @@ const RegisterBox = ({
                 <div className="column">
                   <div className="ui">
                     <Image src={bean3} className="centered RewardIcon"/>
-                    <div className="ui midium header">12,000원 상당의 매직빈
+                    <div className="ui midium header">12,000원<br/>상당의 매직빈
                       <div className="ui sub header">대상: 모두</div>
                     </div>
                   </div>
@@ -46,7 +46,7 @@ const RegisterBox = ({
                 <div className="column">
                   <div className="ui">
                     <Image src={item425} className="centered RewardIcon"/>
-                    <div className="ui midium header">미스릴 세트, 티타늄 세트
+                    <div className="ui midium header">미스릴 세트<br/>티타늄 세트
                       <div className="ui sub header">대상: 모두</div>
                     </div>
                   </div>
