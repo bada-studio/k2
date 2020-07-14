@@ -46,7 +46,7 @@
   - lang: en
     title: Update News
     body:  |-
-      ![](https://eosknights.io/img/notice/ekcup3.jpg?h1)
+      ![](https://eosknights.io/img/notice/ekcup3.jpg =720x653)
       
       ### Update notice
       Update for 1st EK. CUP have done.
@@ -63,7 +63,7 @@
   - lang: ko
     title: Update News
     body: |-
-      ![](https://eosknights.io/img/notice/ekcup3.jpg?h1)
+      ![](https://eosknights.io/img/notice/ekcup3.jpg =720x653)
 
       ### 업데이트 완료안내
       1st EK. CUP을 위한 업데이트가 완료 되었습니다.

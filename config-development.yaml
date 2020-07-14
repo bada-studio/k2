@@ -1,7 +1,7 @@
 ---
 minVersion:
-  ios: 0.0.1
-  android: 0.0.1
+  ios: 1.0.0
+  android: 1.0.0
 maintenance:
   on: false
   messages:
@@ -19,11 +19,10 @@ tester:
 - raindaysmain
 connections:
   apiServer: http://121.168.149.101:8080
-  shopServer: http://121.168.149.101:8787
-  chainServer: http://121.168.149.101:8788
+  shopServer: http://121.168.149.101:8081
   chatServer: ws://121.168.149.101:8765
   frontServer: http://121.168.149.101:8585
   blockExplorer: https://rinkeby.etherscan.io
-  contractAddress: 0x671a8CD30F9b27e6eDF154FCA20F29c38ff167B4
+  contractAddress: 0xF1a82eBaDcff995C177Ef9a88A0674c4a0A9B3A8
   marketURL: https://rinkeby.opensea.io
-IAP: true
+IAP: false
