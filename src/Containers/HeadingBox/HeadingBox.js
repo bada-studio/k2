@@ -45,6 +45,9 @@ class HeadingBox extends Component {
       this.showAlert(false,"사전 등록 실패");
     } else {
       localStorage.setItem('registered', 'true');
+      this.setState({
+          registered: true,
+        })
       this.showAlert(true,"사전 등록 성공!");
     }
   };

@@ -2,29 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074ba98e-de11-4065-b651-90bef15d3972" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AccountBox/RegisterBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AccountBox/RegisterBox.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/build/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/config-development.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/config-development.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/config-local.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/config-local.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/img/meta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/img/meta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/precache-manifest.dc4247018bd9dfb6fb5b8ba099fad5af.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/revision-development.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/build/revision-development.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.a7edb8c1.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/2.a7edb8c1.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d77069c3.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/css/main.d77069c3.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.908d5ca4.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.908d5ca4.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6552f049.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.6552f049.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/play1.43b1c20b.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/play2.89474527.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/play3.b1083583.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/play4.e71c4ab3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/title_text.bb55b6cc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/media/title_v0.ddf6bed4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/meta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/meta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AccountBox/RegisterBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AccountBox/RegisterBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ContentBox/ContentBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContentBox/ContentBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameInfoBox/GameInfoBox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameInfoBox/GameInfoBox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/GameInfoBox/GameInfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/GameInfoBox/GameInfoBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Config/Config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Config/Config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Containers/HeadingBox/HeadingBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Containers/HeadingBox/HeadingBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/play1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/play1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/play2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/play2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/play3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/play3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/play4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/play4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Images/title_v0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/Images/title_v0.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/title_v1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/title_v2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Images/title_v3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/AccountService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/AccountService.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +103,7 @@
       <workItem from="1562131141508" duration="1726000" />
       <workItem from="1562926280332" duration="1237000" />
       <workItem from="1564996926937" duration="25000" />
-      <workItem from="1594705315708" duration="4381000" />
+      <workItem from="1594705315708" duration="6344000" />
     </task>
     <servers />
   </component>
@@ -103,14 +111,14 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="846" y="288" width="604" height="490" key="find.popup" timestamp="1594709863708">
+    <state x="846" y="288" width="604" height="490" key="find.popup" timestamp="1594710971325">
       <screen x="0" y="23" width="1920" height="992" />
     </state>
-    <state x="846" y="288" width="604" height="490" key="find.popup/0.23.1920.992@0.23.1920.992" timestamp="1594709863708" />
-    <state x="813" y="265" width="670" height="678" key="search.everywhere.popup" timestamp="1594710024581">
-      <screen x="0" y="23" width="1920" height="994" />
+    <state x="846" y="288" width="604" height="490" key="find.popup/0.23.1920.992@0.23.1920.992" timestamp="1594710971325" />
+    <state x="813" y="265" width="670" height="676" key="search.everywhere.popup" timestamp="1594712757739">
+      <screen x="0" y="23" width="1920" height="992" />
     </state>
-    <state x="813" y="265" width="670" height="676" key="search.everywhere.popup/0.23.1920.992@0.23.1920.992" timestamp="1594709852189" />
+    <state x="813" y="265" width="670" height="676" key="search.everywhere.popup/0.23.1920.992@0.23.1920.992" timestamp="1594712757739" />
     <state x="813" y="265" width="670" height="678" key="search.everywhere.popup/0.23.1920.994@0.23.1920.994" timestamp="1594710024581" />
   </component>
   <component name="XDebuggerManager">

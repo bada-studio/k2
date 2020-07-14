@@ -4,7 +4,8 @@ import { ContentBox } from '../index';
 import './RegisterBox.css';
 import bean3 from './../../Images/bean3.png';
 import klay from './../../Images/klay.png';
-import title_text from './../../Images/title_text.png';
+import item425 from './../../Images/item425.png';
+import pet24 from './../../Images/pet24.png';
 
 const RegisterBox = ({
   registered,
@@ -27,20 +28,39 @@ const RegisterBox = ({
               <div className="ui two column grid container">
                 <div className="column">
                   <div className="ui">
-                    <Image src={bean3} className="centered RewardIcon"/>
-                    <div className="ui midium header">12,000원 상당의 매직빈
-                      <div className="ui sub header">대상: 모두</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="column">
-                  <div className="ui">
                     <Image src={klay} className="centered RewardIcon"/>
                     <div className="ui midium header">KLAY 100개
                       <div className="ui sub header">대상: 777명 추첨</div>
                     </div>
                   </div>
                 </div>
+                <div className="column">
+                  <div className="ui">
+                    <Image src={bean3} className="centered RewardIcon"/>
+                    <div className="ui midium header">12,000원 상당의 매직빈
+                      <div className="ui sub header">대상: 모두</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="column">
+                  <div className="ui">
+                    <Image src={item425} className="centered RewardIcon"/>
+                    <div className="ui midium header">미스릴 세트, 티타늄 세트
+                      <div className="ui sub header">대상: 모두</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="column">
+                  <div className="ui">
+                    <Image src={pet24} className="centered RewardIcon"/>
+                    <div className="ui midium header">레어 펫 2개
+                      <div className="ui sub header">대상: 모두</div>
+                    </div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
