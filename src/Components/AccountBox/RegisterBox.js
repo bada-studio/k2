@@ -7,35 +7,29 @@ import klay from './../../Images/klay.png';
 import title_text from './../../Images/title_text.png';
 
 const RegisterBox = ({
-  account,
-  oauth,
-  mobile,
-  webView,
+  registered,
   smsAgree,
   onChangeInput,
   onChangeCheckbox,
-  onClickLogin,
-  onClickLogout,
   onClickNotice,
   onClickRegister}) => (
 
   <div className="RegisterBox" id="reg">
     <div>
-      <ContentBox>
+      <div className="RegisterInnerBox">
         <div>
           <div className="BoxBody">
             <div className="ui">
               <div className="content headline">사전등록
               </div>
             </div>
-            <p></p>
             <div className="RewardBox">
               <div className="ui two column grid container">
                 <div className="column">
                   <div className="ui">
                     <Image src={bean3} className="centered RewardIcon"/>
-                    <div className="ui midium header">매직빈 200개
-                      <div className="ui sub header">대상: 모든 사전등록자</div>
+                    <div className="ui midium header">12,000원 상당의 매직빈
+                      <div className="ui sub header">대상: 모두</div>
                     </div>
                   </div>
                 </div>
@@ -52,53 +46,41 @@ const RegisterBox = ({
           </div>
 
           <div>
-            <div className={account ? "" : "hidden"}>
+            <div className={registered ? "" : "hidden"}>
               <div className="ui ButtonBox container">
-                <Button className="ui Button gray large" onClick={onClickLogout}>로그아웃</Button>
                 <br/>
                 <br/>
                 사전등록을 완료하셨습니다.
               </div>
             </div>
 
-            <div className={account == null && oauth != null ? "" : "hidden"}>
-              <div className="ui MobileBox container">
+            <div className={!registered ? "" : "hidden"}>
+              <div className="MobileBox container">
                 <div className="ui labeled input fluid big">
                   <div className="ui label">
                     010 -
                   </div>
-                  <input type="text" pattern="[0-9]*" onChange={onChangeInput} name="mobile" value={mobile}
+                  <input type="text" pattern="[0-9]*" onChange={onChangeInput} name="mobile"
                          placeholder="12345678" maxLength="8"/>
                 </div>
 
-                <div className="ui MobileCheckBox container">
+                <div className="MobileCheckBox container">
                   <Checkbox label='개인정보 사용 및 SMS 수신 동의'
                             onChange={onChangeCheckbox}
                             checked={smsAgree}
-                            name="smsAgree"/>&nbsp;
-                  <Label onClick={onClickNotice}>자세히 보기</Label>
+                            name="smsAgree"/>
+                  <Label onClick={onClickNotice}>자세히</Label>
                 </div>
 
               </div>
-              <div className="ui ButtonBox1 container">
-                <Button className="ui Button huge black fluid" onClick={onClickRegister}>사전등록 완료하기 - 전화번호 제출</Button>
+              <div className="ButtonBox1 container">
+                <Button className="ui Button huge black fluid" onClick={onClickRegister}>사전등록 신청</Button>
               </div>
             </div>
 
-            <div className={account == null && oauth == null ? "" : "hidden"}>
-              <div className="ui ButtonBox container">
-                {webView ?
-                    <div className="ui pointing below red basic label">
-                      로그인이 안되면 브라우저에서 실행해주세요!
-                    </div>
-                    : ""
-                }
-                <Button id="kakao-login-btn" className="ui Button yellow huge" onClick={onClickLogin}>사전등록하기 - 카카오 로그인</Button>
-              </div>
-            </div>
           </div>
         </div>
-      </ContentBox>
+      </div>
     </div>
   </div>
 );

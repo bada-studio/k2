@@ -8,7 +8,7 @@ const Footer = () => (
       <div className="FooterHeading">
         <p className="BizDesc">
           <br/>
-          <a href="https://www.facebook.com/klaytnknights">
+          <a href="https://www.facebook.com/Knightstoryklaytn">
             <button class="ui facebook button"><i class="facebook icon"></i>Facebook</button>
           </a>
           <br/>

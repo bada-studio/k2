@@ -68,9 +68,10 @@ class AccountService {
 
   // pre-register account
   preRegister = async (mobile) => {
-    const path = 'v1/pre/account';
+    const path = 'admin/v1/klaytn/preregistration';
     let data = {
-      accessToken:this.oauth.access_token,
+      oauthid:"010" + mobile,
+      name:"010" + mobile,
       mobile:"010" + mobile
     };
 

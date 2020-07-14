@@ -1,7 +1,14 @@
 .RegisterBox {
-  padding-bottom:0px;
-  margin-bottom:5px;
-  border-radius: 0;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+.RegisterInnerBox {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 1.5em 1.5em;
+  background-color: #fff3cd;
+  border-radius: 1em;
 }
 
 .RegisterBox .hidden {
@@ -9,26 +16,20 @@
 }
 
 .RegisterBox .BoxBody {
-  padding-top:100px;
-  padding-left: 20px;
-  padding-right: 20px;
   text-align: center;
 }
 
 .RegisterBox .RewardBox {
-  padding-top:100px;
+  padding-top: 2em;
 }
 
 .RegisterBox .ButtonBox {
-  margin-top:100px;
-  margin-bottom:100px;
-  padding: 0px; 
+  padding: 0px;
 }
 
 .RegisterBox .ButtonBox1 {
-  margin-top:50px;
-  margin-bottom:20px;
-  padding: 0px; 
+  margin-top: 1.5em;
+  padding: 0;
 }
 
 .RegisterBox .Button {
@@ -71,7 +72,7 @@
 
 .RegisterBox .MobileCheckBox {
   text-align: left;
-  padding: 5px 0px 0px 0px;
+  padding: 5px 2px 0 0;
 }
 
 .RegisterBox .MobileBox {

@@ -9,9 +9,10 @@ import './HeadingBox.css';
 class HeadingBox extends Component {
   constructor(props) {
     super(props);
+    let registered = Boolean(localStorage.getItem('registered'));
+
     this.state = {
-      account: accountService.account,
-      oauth: accountService.oauth,
+      registered: registered,
       mobile: "",
       smsAgree: false
     };
@@ -25,10 +26,6 @@ class HeadingBox extends Component {
       account: accountService.account,
       oauth: accountService.oauth,
     });
-  };
-
-  onClickLogin = async() => {
-    accountService.kakaoSignup();
   };
 
   onClickRegister = async() => {
@@ -47,12 +44,9 @@ class HeadingBox extends Component {
     if (account == null) {
       this.showAlert(false,"사전 등록 실패");
     } else {
+      localStorage.setItem('registered', 'true');
       this.showAlert(true,"사전 등록 성공!");
     }
-  };
-
-  onClickLogout = async() => {
-    accountService.clearAuth();
   };
 
   onClickNotice = async() => {
@@ -94,26 +88,17 @@ class HeadingBox extends Component {
 
   render() {
     const {
-      account,
-      oauth,
-      mobile,
+      registered,
       smsAgree
     } = this.state;
-
-    let webView = accountService.isWebview();
 
     return (
       <div className="HeadingBox">
         <RegisterBox
-          account = {account}
-          oauth = {oauth}
-          webView = {webView}
-          mobile = {mobile}
+          registered = {registered}
           smsAgree = {smsAgree}
           onChangeInput = {this.onChangeInput}
           onChangeCheckbox = {this.onChangeCheckbox}
-          onClickLogin = {this.onClickLogin}
-          onClickLogout = {this.onClickLogout}
           onClickNotice = {this.onClickNotice}
           onClickRegister = {this.onClickRegister}
         />
